@@ -1,0 +1,31 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 400px;
+    height: 650px;
+    background-color: burlywood;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+    height: 30%;
+    padding: 50px;
+}
+
+.info {
+    height: 50%;
+    width: 80%;
+    padding: 50px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
